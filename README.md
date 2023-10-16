@@ -1,6 +1,5 @@
 # kmz-kml-parser
 tool to parse and display kml files or more specifically extracted kmz files.
-right now it is just an html file that shows a map and table showing praced data using with javascript but i might make it into a library someday.
 
 kml file is named dat.kml because that is what an extracted kmz file defaults as.
 images for marker icons are located in /images folder

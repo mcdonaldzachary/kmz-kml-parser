@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KML on Google Maps</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=API-KEY-GOES-HERE"></script>
+    <style>
+        #map {
+            height: 500px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="placemarkTable">
+        <thead>
+            <tr>
+                <th>Visible</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added dynamically by JavaScript -->
+        </tbody>
+    </table>
+    <div id="map"></div>
+    <h3>Parsed Placemarks</h3>
+    <table id="detailsTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Coordinates</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be added dynamically by JavaScript -->
+        </tbody>
+    </table>
+
+
+    <script src="kmz-parse.js"></script>
+
+    
+
+
+</body>
+
+</html>
